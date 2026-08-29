@@ -249,6 +249,7 @@ for w_id, true_tag, pred_tag in zip(X_test[i], y_test[i], preds):
 
 
 ### Sample Text Prediction
+<img width="626" height="597" alt="image" src="https://github.com/user-attachments/assets/19e32dee-d18e-4974-8612-21841e0f65fe" />
 
 
 ## RESULT
