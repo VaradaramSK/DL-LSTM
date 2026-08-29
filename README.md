@@ -226,8 +226,8 @@ output = model(sample)
 preds = torch.argmax(output, dim=-1).squeeze().cpu().numpy()
 true = y_test[i].numpy()
 
-print('Name: ragul M')
-print('Register Number:212224100048')
+print('Name: Varadaram SK')
+print('Register Number:212223040232')
 print("{:<15} {:<10} {}\n{}".format("Word", "True", "Pred", "-" * 40))
 for w_id, true_tag, pred_tag in zip(X_test[i], y_test[i], preds):
     if w_id.item() != word2idx["ENDPAD"]:
@@ -249,7 +249,7 @@ for w_id, true_tag, pred_tag in zip(X_test[i], y_test[i], preds):
 
 
 ### Sample Text Prediction
-Include your sample text prediction here
+
 
 ## RESULT
-Include your result here
+Thus, an LSTM-based model for recognizing the named entities in the text has been developed successfully.
