@@ -9,35 +9,36 @@ To develop an LSTM-based model for recognizing the named entities in the text.
 ## DESIGN STEPS
 ### STEP 1: 
 
-Write your own steps
+Load data, create word/tag mappings, and group sentences.
 
 ### STEP 2: 
 
-
+Convert sentences to index sequences, pad to fixed length, and split into training/testing sets.
 
 ### STEP 3: 
 
-
+Define dataset and DataLoader for batching.
 
 ### STEP 4: 
 
-
+Build a bidirectional LSTM model for sequence tagging.
 
 ### STEP 5: 
 
-
+Train the model over multiple epochs, tracking loss.
 
 ### STEP 6: 
 
+Evaluate model accuracy, plot loss curves, and visualize predictions on a sample.
 
 
 
 
 ## PROGRAM
 
-### Name:
+### Name: Varadaram SK
 
-### Register Number:
+### Register Number: 212223040232
 
 ```python
 class BiLSTMTagger(nn.Module):
